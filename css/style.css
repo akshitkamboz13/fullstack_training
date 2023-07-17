@@ -1,0 +1,89 @@
+.loo{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(196, 255, 2);
+    border-radius: 50%;
+    position: relative;
+    animation-name: lll;
+    animation-duration: 5s;
+    animation-iteration-count: 50;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes lll{
+    0%{
+        left:50px;
+        top: 50px;
+    }
+    25%{
+        left:500px;
+        top: 50px;
+    }
+    50%{
+        left: 500px;
+        top: 500px;
+    }
+    75%{
+        left: 50px;
+        top:500px;
+    }
+    100%{
+        left:50px;
+        top:50px;
+    }
+
+    
+}
+/* 1. Selectors */
+
+/* selector { cssProperty: cssValue; } */
+/* a.) Element Selector - Selects element based on the name */
+h1 {
+    color: blue;
+}
+/* b.) id Selector - Selects the element based on the id. */
+#heading-one:hover {
+    color: green;
+}
+/* c.) class Selector - Selects the elements based on the class name */
+/* #para-one, #para-two, #para-four {
+    color: gray;
+} */
+.myPara {
+    color: gray;
+}
+/* d.) Attribute Slector */
+/* elementName[attributeName condition] */
+/* I want to find the <a> whose href starts with https:// */
+/* ^ -> Starts with
+$ -> Ends with
+* -> contains */
+a[href^="https://"] {
+    color: yellow;
+}
+a[href$=".jpg"] {
+    color: maroon;
+}
+a[href*="/"] {
+    color: red;
+}
+img[src^="../"] {
+    border: 10px solid gray;
+} 
+/* e.) Pseudo Selectors */
+/* elementName: pseudoProperty { ... } */
+ol:first-child {
+    color: red;
+}
+li:first-child {
+    color: green;
+}
+.ordered-list-item:last-child {
+    color: red;
+}
+.unordered-list-item:first-child {
+    color: blue;
+}
+.ordered-list-item:nth-child(3) {
+    color: yellow;
+}
