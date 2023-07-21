@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="../bootstrap-3.4.1-dist/bootstrap-3.4.1-dist/css/bootstrap.min.css"
+    />
+    <title>Document</title>
+  </head>
+  <body style="background-color: rgb(23, 10, 0); color: rgb(160, 160, 160);">
+    <div class="container">
+      <h1 class="page-header">Bootstrap ki shuruat</h1>
+
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo deserunt
+        doloribus sit repellendus natus magnam minus omnis odio, mollitia
+        laborum sequi facilis ullam fuga hic necessitatibus dolores nisi eaque
+        magni voluptatem atque adipisci voluptate officiis? Odio officia quidem
+        ut consequuntur eaque tempora. Nobis ad inventore quis atque deleniti
+        optio officia!
+      </p>
+      <p class="container">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis
+        corrupti hic commodi ipsum aliquid, quasi soluta quas itaque ad eos
+        cumque harum doloremque rem obcaecati ex quod maxime at similique,
+        maiores excepturi odio debitis! Optio placeat suscipit omnis fugit
+        accusantium explicabo nihil iusto voluptatum ipsam eveniet.
+        Exercitationem nobis velit recusandae?
+      </p>
+      <p class="container-fluid">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam in fugit
+        repudiandae alias quae eveniet nesciunt tenetur laudantium consequatur
+        molestiae velit, enim necessitatibus, facilis accusantium voluptatem
+        iure mollitia, magni voluptatum beatae doloremque ducimus! Voluptatum
+        deserunt dolorum rerum consectetur repudiandae repellat, veniam
+        laboriosam, eveniet distinctio, suscipit recusandae. Voluptates libero a
+        ex!
+      </p>
+
+      <div class="container-fluid">
+        <p class="text-left">left</p>
+        <p class="text-center">center</p>
+        <p class="text-right">right</p>
+      </div>
+      <div class="container-fluid">
+        <p class="text-warning bg-danger">test case text warning</p>
+        <p class="text-danger" style="background-color: blueviolet">
+          test case text danger
+        </p>
+        <p class="text-success">test case textsucessg</p>
+        <p class="text-info">test case texinfong</p>
+        <p class="text-primary">test case primaryrning</p>
+        <p class="text-muted">test case text warning</p>
+      </div>
+      <div class="container-fluid" style="color: rgb(255, 144, 255)">
+        <p class="bg-danger">test case text danger</p>
+        <p class="bg-success">test case textsucessg</p>
+        <p class="bg-info">test case texinfong</p>
+        <p class="bg-warning">test case text warning</p>
+        <p class="bg-primary">test case primaryrning</p>
+        <p class="bg-muted">test case text warning</p>
+      </div>
+      <h3 class="page-header">button, submit and anchors</h3>
+      <button class="btn btn-info">button</button>
+      <input type="submit" value="submit" class="btn btn-success" />
+      <a href="#" class="btn btn-danger">anchor </a>
+      <hr />
+
+      <button style="background-color: blue" class="btn btn-lg">button</button>
+      <input
+        type="submit"
+        style="background-color: blue"
+        value="submit"
+        class="btn btn-lg"
+      />
+      <a href="#" style="background-color: blue" class="btn btn-lg">anchor </a>
+
+      <h3 class="page-header">table</h3>
+      <table class="table table-bordered table-condensed table-hover">
+        <tr>
+          <th>Company</th>
+          <th>Contact</th>
+          <th>Country</th>
+        </tr>
+        <tr>
+          <td>Alfreds Futterkiste</td>
+          <td>Maria Anders</td>
+          <td>Germany</td>
+        </tr>
+        <tr>
+          <td>Centro comercial Moctezuma</td>
+          <td>Francisco Chang</td>
+          <td>Mexico</td>
+        </tr>
+        <tr>
+          <td>delhi</td>
+          <td>Mumbai</td>
+          <td>karnal</td>
+        </tr>
+      </table>
+    </div>
+
+    <h3 class="page-header">form</h3>
+    <div class="container">
+      <form action="https://www.myBE.php/" >
+        <!-- <span>Your Name : </span><input type=""  /> -->
+        <div>
+          <input
+            class="form-group"
+            type="text"
+            placeholder="enter your name..."
+          />
+        </div>
+        <!-- Email :- username@hostname.com -->
+        <div>
+          <input
+            class="form-group"
+            btype="email"
+            placeholder="enter your email..."
+          />
+        </div>
+        <div>
+          <input
+            class="form-group"
+            type="password"
+            placeholder="enter your password..."
+          />
+        </div>
+        <div>
+          <input class="form-group" type="date" />
+        </div>
+        <div>
+          <input class="form-group" type="range" />
+        </div>
+        <label>Enter you gender - </label>
+        <!-- <input type="checkbox" /> Male <br />
+                    <input type="checkbox" /> Female <br />
+                    <input type="checkbox" /> Others <br /> -->
+        <div>
+          <select>
+            <option>Male</option>
+            <option>Female</option>
+            <option>Others</option>
+          </select>
+        </div>
+        <div>
+          <label>Upload you CV - </label>
+          <input class="form-group" type="file" />
+        </div>
+        <div>
+          <input class="form-group" type="color" />
+        </div>
+        <div>
+          <input class="form-group" type="submit" value="Sign Up" />
+        </div>
+      </form>
+    </div>
+
+    <hr />
+    <h3 class="page-header">navigation</h3>
+    <div class="container">
+        <nav class="nav-justified">
+            <ul style="display: flex; justify-content: space-between;" class="list-unstyled list-inline">
+                <li>Item - 1</li>
+                <li>Item - 2</li>
+                <li>Item - 3</li>
+                <li>Item - 4</li>
+                <li>Item - 5</li>
+            </ul>
+        </nav>
+    </div>
+    <div class="container-fluid">
+        <h3>BS Grids :-</h3>
+    </div>
+    <div class="container">
+        <!-- Row -->
+        <div class="row">
+            <!-- One row can have at max of 12 cols -->
+            <div class="col-lg-4">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h4 style="text-align: center;">Panel Heading</h4>
+                    </div>
+                    <div class="panel-body">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, cum repellendus ullam blanditiis ut corporis, a est mollitia omnis molestias officia doloremque veritatis aspernatur neque, doloribus porro consequatur facere quasi explicabo. Debitis error ipsum accusantium, in quod animi placeat itaque, ab assumenda voluptatem fugit veritatis distinctio praesentium porro quas numquam.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="panel panel-success">
+                    <div class="panel-heading">
+                        <h4 style="text-align: center;">Panel Heading</h4>
+                    </div>
+                    <div class="panel-body">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, cum repellendus ullam blanditiis ut corporis, a est mollitia omnis molestias officia doloremque veritatis aspernatur neque, doloribus porro consequatur facere quasi explicabo. Debitis error ipsum accusantium, in quod animi placeat itaque, ab assumenda voluptatem fugit veritatis distinctio praesentium porro quas numquam.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="panel panel-danger">
+                    <div class="panel-heading">
+                        <h4 style="text-align: center;">Panel Heading</h4>
+                    </div>
+                    <div class="panel-body">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, cum repellendus ullam blanditiis ut corporis, a est mollitia omnis molestias officia doloremque veritatis aspernatur neque, doloribus porro consequatur facere quasi explicabo. Debitis error ipsum accusantium, in quod animi placeat itaque, ab assumenda voluptatem fugit veritatis distinctio praesentium porro quas numquam.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </body>
+</html>
